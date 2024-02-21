@@ -1,0 +1,15 @@
+@import "./vars.scss";
+body {
+  margin: 0;
+}
+
+.quiz {
+  font-family: monospace;
+  background-color: $primary;
+  background-image: linear-gradient(315deg, $primary 0%, $accent 74%);
+  height: 100vh;
+  color: $foreground;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
